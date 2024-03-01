@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<head>
+  <title>Lab 1</title>
+  <link rel="stylesheet" href="lab1.css">
+</head>
+<body>
+  <div class="main">
+    <div class="div-system-of-coordinates">
+      <canvas width="700" height="700"></canvas>
+    </div>
+    <div class="div-information">
+      <div class="selectors">
+        <div class="div-figure-selector">
+          <label>Select a figure:</label>
+          <select class="figure-selector">
+            <option value="square">Square</option>
+            <option value="circle">Circle</option>
+          </select>
+        </div>
+        <div class="div-color-selector">
+          <label>Select a color:</label>
+          <select class="color-selector">
+            <option value="red">Red</option>
+            <option value="green">Green</option>
+            <option value="blue">Blue</option>
+            <option value="yellow">Yellow</option>
+          </select>
+        </div>
+        <div class="div-filled-selector">
+          <label>Change color of:</label>
+          <div class="filled-option">
+            <input type="checkbox" class="checkbox-border">
+            <label class="border-option">Border</label>
+            <input type="checkbox" class="checkbox-filling">
+            <label class="filling-option">Filling</label>
+          </div>
+        </div>
+      </div>
+      <div class="coordinates-input">
+        <div class="coordinates-inputes">
+          <input class="number-input number-input-x0" type="number" placeholder="x0">
+          <input class="number-input number-input-y0" type="number" placeholder="y0">
+          <input class="number-input number-input-x1" type="number" placeholder="x1">
+          <input class="number-input number-input-y1" type="number" placeholder="y1">
+        </div>
+        <button class="btn-draw-figure">Draw</button>
+      </div>
+    </div>
+  </div>
+  
+  <script type="module" src="lab1.js"></script>
+</body>
