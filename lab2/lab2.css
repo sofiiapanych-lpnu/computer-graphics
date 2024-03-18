@@ -1,0 +1,85 @@
+.main {
+  display: flex;
+  justify-content: center;
+} 
+canvas{
+  border: solid 1px rgba(0, 0, 0, 0.25);
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.div-information {
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  row-gap: 5px;
+  padding: 10px;
+  margin:20px;
+  margin-top: auto;
+  margin-bottom: 250px;
+  background-color: rgb(247, 247, 247);
+  border: solid 1px rgba(0, 0, 0, 0.25);
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+} 
+.coordinates-inputes{
+  display: grid;
+  grid-template-columns: 100px 100px;
+  row-gap: 2px;
+  column-gap: 2px;
+}
+.add-values-btn, .submit-values-btn, .change-t-btn{
+  background-color: rgb(201, 201, 201);
+  border: none;
+  padding: 3px;
+  font-weight: bold;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  margin-bottom: 5px;
+}
+.add-values-btn:active, .submit-values-btn:active{
+  background-color: rgb(192, 192, 192);
+}
+.selectors{
+  margin-bottom: 10px;
+  display: grid;
+  row-gap: 8px;
+}
+.input-t-container {
+  display: flex;
+  flex-direction: column;
+}
+.input-t-container label {
+  margin-right: 5px;
+}
+.input-step{
+  width: 116px;
+}
+.input-t input {
+  width: 50px;
+}
+.input-t-info{
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.input-t, .input-step{
+  margin-left: auto;
+}
+.input-values-container{
+  display: flex;
+  flex-direction: column;
+}
+.input-values{
+  display: flex;
+  flex-direction: column;
+}
+.input-btns{
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+.input-x, .input-y{
+  width: 70px;
+}
+.input-checkbox{
+  margin-bottom: 10px;
+  margin-top: 10px;
+}

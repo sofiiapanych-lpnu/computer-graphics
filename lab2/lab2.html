@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<head>
+  <title>Lab 2</title>
+  <link rel="stylesheet" href="lab2.css">
+</head>
+<body>
+  <div class="main">
+    <div class="div-system-of-coordinates">
+      <canvas width="700" height="700"></canvas>
+    </div>
+    <div class="div-information">
+      <div class="input-t-container">
+        <div class="input-t-info">
+          <label>Step</label>
+          <input type="number" placeholder="Step" class="input-step">
+        </div>
+        <div class="input-t-info">
+          <label>Interval</label>
+          <div class="input-t">
+            <input type="number" placeholder="Start" class="input-start">
+            <input type="number" placeholder="End" class="input-end">
+          </div>
+        </div>
+      </div>
+      <label>Enter coordinates</label>
+      <div class="input-values-container">
+        <div class="input-values">
+        </div>
+        <div class="input-btns">
+          <button class="add-values-btn">Add a point</button>
+          <div>
+            <input type="checkbox" class="input-checkbox">
+            <label>Matrix method</label>
+          </div>
+          <button class="submit-values-btn">Submit</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="output"></div>
+  <script type="module" src="lab2.js"></script>
+</body>
