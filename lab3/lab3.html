@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lab 3</title>
+  <link rel="stylesheet" href="lab3.css">
+</head>
+<body>
+  <div class="main">
+    <div class="div-system-of-coordinates">
+      <canvas width="700" height="700"></canvas>
+    </div>
+    <div class="div-information">
+      <div class="options">
+        <label>What fractal would you like to draw?</label>
+        <select class="selector">
+          <option value="h-fractal">H-Tree</option>
+          <option value="t-fractal">T-Tree</option>
+          <option value="newton-fractal">Newton's fractal</option>
+        </select>
+      </div>
+      <div class="info"><div class="inputes">
+        <label>Color</label>
+        <input type="color" class="color">
+        <label>X</label>
+        <input type="number" class="x">
+        <label>Y</label>
+        <input type="number" class="y">
+        <label>Depth</label>
+        <input type="number" class="depth">
+        <label>Scale</label>
+        <input type="number" class="scale">
+      </div></div>
+      
+      <button class="draw-btn">Draw</button>
+      <button class="download-btn">Download</button>
+    </div>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/9.4.4/math.min.js"></script>
+  <script src="lab3.js"></script>
+</body>
+</html>
