@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Рух фігури на площині</title>
+  <link rel="stylesheet" href="lab5.css">
+</head>
+<body>
+  <div class="main">
+    <div class="div-system-of-coordinates">
+      <canvas width="700" height="700"></canvas>
+    </div>
+    <div class="div-information">
+      <div class="input-container">
+        <label for="segmentLength">Відрізок коорд. пл.:</label>
+        <input type="number" id="segmentLength" class="input-field">
+      </div>
+      <div class="input-container">
+        <label for="topX">Вершина X:</label>
+        <input type="number" id="topX" class="input-field">
+        <label for="topY">Вершина Y:</label>
+        <input type="number" id="topY" class="input-field">
+        <label for="leftX">Ліва вершина X:</label>
+        <input type="number" id="leftX" class="input-field">
+        <label for="leftY">Ліва вершина Y:</label>
+        <input type="number" id="leftY" class="input-field">
+        <label for="rightX">Права вершина X:</label>
+        <input type="number" id="rightX" class="input-field">
+        <label for="rightY">Права вершина Y:</label>
+        <input type="number" id="rightY" class="input-field">
+      </div>
+      <div class="input-container">
+        <label for="moveX">Переміщення N:</label>
+        <input type="number" id="moveX" class="input-field">
+        <label for="moveY">Переміщення M:</label>
+        <input type="number" id="moveY" class="input-field">
+        <label for="angle">Кут повороту (градуси):</label>
+        <input type="number" id="angle" class="input-field">
+      </div>
+      <div class="buttons">
+        <button class="draw-btn">Намалювати трикутник</button>
+        <button class="start-btn">Розпочати рух</button>
+        <button class="stop-btn" disabled>Зупинити рух</button>
+      </div>
+      <button class="downloadM-btn">Download matrix</button>
+      <button class="download-btn">Download picture</button>
+    </div>
+  </div>
+  <script src="lab5.js"></script>
+</body>
+</html>
